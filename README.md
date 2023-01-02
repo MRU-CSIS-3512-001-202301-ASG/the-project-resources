@@ -1,1 +1,1 @@
-# the-project-resources
+# The Project: Resources
