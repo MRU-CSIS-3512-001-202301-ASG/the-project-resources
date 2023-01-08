@@ -44,3 +44,11 @@ Here is what your supervisor said to you about The Project:
 If you have any questions about The Project, please post them to the Q&A section of the [assignment's discussion board](https://github.com/orgs/MRU-CSIS-3512-001-202301-ASG/discussions).
 
 If you notice someone has posted a question that you know than answer to, please feel free to answer it!
+
+## Notifications
+
+I will be periodically posting Project announcements to [the project resource repo](https://github.com/MRU-CSIS-3512-001-202301-ASG/the-project-resources). 
+
+You can get notified by email when this happens by going to the repo and choosing `Watch > All Activity`:
+
+![watching](images/watching-a-repo.jpg)

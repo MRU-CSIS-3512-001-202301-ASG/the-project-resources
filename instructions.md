@@ -1,6 +1,6 @@
-# COMP3512 - The Project
+# COMP3512 - Winter 2023 - The Project
 
-**Winter 2023**
+**Weight**: 30%
 
 **Due:** Mar. 31, 2023 @ 5 PM 
 
@@ -10,7 +10,7 @@ This assignment provides an opportunity for you to demonstrate your abilities in
 
 It is quite a complex piece of work and, if completed successfully, will make a nice addition to your work portfolio.
 
-## Suggested Timeline
+## Suggested Milestones
 
 This is a large undertaking, so it's important that you work on it continuously throughout the semester. If you attempt to do the majority of work in the last week or two of the semester, you will make your future self's life a living hell **and** probably receive a failing mark. Don't do that.
 
@@ -62,4 +62,16 @@ This **will** be part of your marked work. I don't expect it to be a novel, so d
 
 ## The Requirements
 
-## Questions?
+There are a lot of requirements! I'll continue adding and organizing them over the first couple of weeks. Welcome to the world of large, complex projects. 😁
+
+### All Pages
+
+- [ ] No page has any errors when validated by the [W3C Markup Validation Service](https://validator.w3.org/s). Warnings are OK, though not great.
+
+### Admin Pages
+
+
+- [ ] The landing page for the admin pages is called `admin.php`.
+- [ ] 
+
+## Standard User Pages
