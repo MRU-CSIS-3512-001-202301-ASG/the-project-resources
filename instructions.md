@@ -60,18 +60,5 @@ Please keep a journal of your experiences working on The Project in this documen
 
 This **will** be part of your marked work. I don't expect it to be a novel, so don't freak out.
 
-## The Requirements
+## The Functional Requirements
 
-There are a lot of requirements! I'll continue adding and organizing them over the first couple of weeks. Welcome to the world of large, complex projects. 😁
-
-### All Pages
-
-- [ ] No page has any errors when validated by the [W3C Markup Validation Service](https://validator.w3.org/s). Warnings are OK, though not great.
-
-### Admin Pages
-
-
-- [ ] The landing page for the admin pages is called `admin.php`.
-- [ ] 
-
-## Standard User Pages
