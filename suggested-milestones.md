@@ -4,7 +4,6 @@
 - [ ] sketch out page layouts
 - [ ] get photos over to Cloudinary
 - [ ] code up rough versions of admin pages (login, dashboard), using hard-coded data & minimal styling
-- [ ] decide on 
 - [ ] write at least one entry in the [project journal](instructions.md#project-journalmd)
 
 ## Week of `2023-01-16`
