@@ -26,7 +26,7 @@ None
     },
     {
       "city":"Fort Assiniboine",
-      "country":"Japan",
+      "country":"Canada",
       "lat":54.334761,
       "long":-114.774803
     }
