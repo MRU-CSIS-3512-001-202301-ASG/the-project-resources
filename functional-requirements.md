@@ -26,9 +26,9 @@ To get full marks on The Project, you'll need to complete them all.
   - [ ] There is **no client-side validation** present on the login form.   
     > _**Aside**: I want to make sure you have a grip on basic server-side validation and adding client-side validation here makes it harder for you and me to test that._
   - [ ] If a user enters in a username/password combination that is not found in the `administrators` table, a useful - but not too-revealing - message displays on the form **and** the form fields still have their previously-entered values.
-- [ ] If the user authenticates correctly, the login status is saved using PHP session state, and the form redirects to the **Browse/Search Page**. 
+- [ ] If the user authenticates correctly, the login status is saved using PHP session state, and the form redirects to the **Browse/Filter Page**. 
 
-### Browse/Search Page
+### Browse/Filter Page
 
 - [ ] This page shows, at a glance, thumbnails of photos **that have been rated by the user with userID 23**, along with their associated country, city, latitude, longitude, and rating. You pick the number of photos to show on the page and how you order the entries by default.
 - [ ] There is an intuitive way to sort the entries in ascending and descending order by rating and by city.
