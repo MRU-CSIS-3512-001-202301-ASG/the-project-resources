@@ -41,6 +41,7 @@ To get full marks on The Project, you'll need to complete them all.
 - [ ] There is an intuitive way to change the rating of an entry.
   - [ ] When a rating is changed, the corresponding data is updated in the necessary table in the database.
   - [ ] When a rating is changed, there is a visual cue to the user that the update has happened.
+  - [ ] Server-side validation occurs to ensure the rating is an integer between 1 and 5, inclusive on both ends.
 
 ## Requirements for the API
 
