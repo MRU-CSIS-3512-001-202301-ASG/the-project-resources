@@ -31,6 +31,7 @@ To get full marks on The Project, you'll need to complete them all.
 ### Browse/Filter Page
 
 - [ ] This page shows, at a glance, thumbnails of photos **that have been rated by the user with userID 23**, along with their associated country, city, latitude, longitude, and rating. You pick the number of photos to show on the page and how you order the entries by default.
+- [ ] When a user goes to this page without being logged in, they should be redirected back to the **Login Page**. Detection of whether the user is logged in is done through PHP sessions. 
 - [ ] There is an intuitive way to sort the entries in ascending and descending order by rating and by city.
   - [ ] The last sort used is stored in a cookie that lasts for 24 hours so that if the user comes back to the site at some time in that period, this sort automatically happens.
 - [ ] There is an intuitive way to filter the entries by country, city, and rating.
