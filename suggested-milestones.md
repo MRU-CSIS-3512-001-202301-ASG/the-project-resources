@@ -3,7 +3,7 @@
 ## Week of `2023-01-09`
 - [ ] sketch out page layouts
 - [ ] get photos over to Cloudinary
-- [ ] code up rough versions of admin pages (login, dashboard), using hard-coded data & minimal styling
+- [ ] code up rough versions of admin pages (Login, Browse/Filter), using hard-coded data & minimal styling
 - [ ] write at least one entry in the [project journal](instructions.md#project-journalmd)
 
 ## Week of `2023-01-16`
@@ -11,24 +11,30 @@
 - [ ] write at least one entry in the [project journal](instructions.md#project-journalmd)
 
 ## Week of `2023-01-23`
-- [ ] filters on dashboard working on hard-coded data
+- [ ] filters on Browse/Filter working on hard-coded data
+- [ ] Login has server-side validation
+- [ ] Browse/Filter sorting on hard-coded data working
+- [ ] last Browse/Filter sort used "remembered" via cookies 
 - [ ] write at least one entry in the [project journal](instructions.md#project-journalmd)
 
 ## Week of `2023-01-30`
-- [ ] dashboard now populated from database
+- [ ] Browse/Filter now populated from database
+- [ ] server-side validation of rating changes in place
 - [ ] write at least one entry in the [project journal](instructions.md#project-journalmd)
 
 ## Week of `2023-02-06`
-- [ ] able to authenticate into admin panel
+- [ ] able to properly authenticate into Browse/Filter page using database data
+- [ ] redirection occurring (both on login and attempt to view Browse/Filter w/o login)
 - [ ] write at least one entry in the [project journal](instructions.md#project-journalmd)
 
 ## Week of `2023-02-13`
-- [ ] admin pages functional, or very close to it
+- [ ] admin pages fully functional (as per the functionality req's doc), or very close to it
 - [ ] [Dead Drop API](api-details.md#dead-drop-api) functional
-- [ ] Codespace set up for use with JavaScript
+- [ ] Codespace set up for use with JavaScript (as per tutorial 17)
 - [ ] write at least one entry in the [project journal](instructions.md#project-journalmd)
 
 ## Week of `2023-02-20 (READING WEEK)`
+- [ ] take a break? catch up if you're behind?
 
 ## Week of `2023-02-27`
 - [ ] TBA
