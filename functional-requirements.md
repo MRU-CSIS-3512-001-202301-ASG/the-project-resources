@@ -43,6 +43,7 @@ To get full marks on The Project, you'll need to complete them all.
   - [ ] When a rating is changed, the corresponding data is updated in the necessary table in the database.
   - [ ] When a rating is changed, there is a visual cue to the user that the update has happened.
   - [ ] Server-side validation occurs to ensure the rating is an integer between 1 and 5, inclusive on both ends.
+  - [ ] There is an intuitive way to log out; this destroys the current session and returns the user to the **Login Page**.
 
 ## Requirements for the API
 
