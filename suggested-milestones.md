@@ -17,7 +17,7 @@
 - [ ] last Browse/Filter sort used "remembered" via cookies 
 - [ ] write at least one entry in the [project journal](instructions.md#project-journalmd)
 
-## Week of `2023-01-30`
+## 📌 Week of `2023-01-30`
 - [ ] Browse/Filter now populated from database
 - [ ] server-side validation of rating changes in place
 - [ ] write at least one entry in the [project journal](instructions.md#project-journalmd)
