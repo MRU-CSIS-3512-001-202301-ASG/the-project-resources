@@ -11,7 +11,7 @@ To get full marks on The Project, you'll need to complete them all.
 
 ## Requirements for All Pages
 
-- [ ] All pages have zero errors when validated by the [W3C Markup Validation Service](https://validator.w3.org/s). (Warnings are OK, though not great.)
+- [ ] All pages have zero errors when validated by the [W3C Markup Validation Service](https://validator.w3.org/s). (Warnings are OK, though not great. I'd spend _some_ effort to remove them - but their presence will NOT affect your mark!)
 - [ ] All pages look reasonable at Mobile L and Laptop L sizes on Google Chrome.  
     > _**Aside**: This isn't because I'm a Google fanboy, or because other sizes are not important. It's because I need to limit options, lest testing your pages becomes a nightmare for both of us._
 
