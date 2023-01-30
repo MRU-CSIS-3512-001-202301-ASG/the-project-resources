@@ -8,6 +8,7 @@ To get full marks on The Project, you'll need to complete them all.
 
 - [ ] No jQuery, React, or any such 3rd-party JS libraries are used.
 - [ ] All code you don't create yourself is referenced in your code as comments. If it's code you found online, it should only be a few (like 3 to 5) lines and you should include a link to where you found it. If you use code that was created through the help of a peer, cite them. You do not have to cite code you've been given in tutorials or lectures. **Egregious examples of academic dishonesty have the potential to give you a big fat zero on this assignment. Neither of us wants that.**
+- [ ] Any database work must be done using PDO, not mysqli.
 
 ## Requirements for All Pages
 
