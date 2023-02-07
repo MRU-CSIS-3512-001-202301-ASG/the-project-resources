@@ -37,7 +37,7 @@
 - [ ] take a break? catch up if you're behind?
 
 ## Week of `2023-02-27`
-- [ ] TBA
+- [ ] create a version of the user facing pages that uses some hard-coded data; it doesn't need to be interactive at this point, so clicking on things and typing in values doesn't have to actually _do_ anything yet - you're just trying to get the layout and "look" of the page solidified
 - [ ] write at least one entry in the [project journal](instructions.md#project-journalmd)
 
 ## Week of `2023-03-06`
