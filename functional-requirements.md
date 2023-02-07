@@ -58,4 +58,10 @@ _Further API endpoints will be necessary once work begins on the public-facing s
 
 ## Requirements for the Public-Facing Site
 
-_These will be added later as we get closer to Reading Week._
+- [ ] The public-facing site has one and only one html page: `index.html`.
+- [ ] All `<img>` tags displaying travel photos use `srcset` and `sizes` to create responsive images. (See this [MDN reference](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#how_do_you_create_responsive_images) for guidance.)
+  - [ ] All travel photos are served by Cloudinary at reasonable sizes. (This is my way of saying that you should not be using CSS to make huge images look small.)
+- [ ] Tables are not used for layout.
+- [ ] No embedded or inline JavaScript is present; all JavaScript is contained in external files.
+- [ ] The `innerHTML` property is not used in any JS files.
+- [ ] No alerts are used.
