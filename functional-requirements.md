@@ -34,7 +34,8 @@ To get full marks on The Project, you'll need to complete them all.
 
 ### Browse/Filter Page
 
-- [ ] This page shows, at a glance, thumbnails of photos **that have been rated by the user with userID 23**, along with their associated country, city, latitude, longitude, and rating. You pick the number of photos to show on the page and how you order the entries by default.
+- [ ] This page shows, at a glance, thumbnails of photos **that have been rated by the user with userID 23**, along with their associated country, city, latitude, longitude, and rating. You pick the number of photos to show on the page and how you order the entries by default. 
+  - _**Clarification**: the SQL query you use to retrieve the entries uses an ORDER BY._
 - [ ] When a user goes to this page without being logged in, they should be redirected back to the **Login Page**. Detection of whether the user is logged in is done through PHP sessions. 
 - [ ] There is an intuitive way to sort the entries in ascending and descending order by rating and by city.
   - [ ] The last sort used is stored in a cookie that lasts for 24 hours so that if the user comes back to the site at some time in that period, this sort automatically happens.
@@ -96,10 +97,11 @@ _Although there is only one "page" for the public-facing site - `index.html` - i
 
 #### Filters
 
-- [ ] There is an obvious way to filter countries by name; this filtering is case-insensitive and matches the start of the name. (_So `ca` should show `Canada`, but not `Jamaica`._)
-- [ ] There is an obvious way to filter countries that have or do not have photos.
+- [ ] There is an obvious way to filter countries by name; this filtering is case-insensitive and matches the start of the name. (_For example, `ca` should show `Canada`, but not `Jamaica`._)
+- [ ] There is an obvious way to filter cities by name; this filtering is case-insensitive and matches the start of the name. (_For example, `shi` should show `Shiliguri`, but not `Washington`._)
+- [ ] There is an obvious way to allow these two filters to only include results that have photos.
 - [ ] Filters have no Submit buttons - they filter immediately on user entry.
-- [ ] Only one filter is active at a time; if another filter is engaged, any previously engaged filters are cleared.
+- [ ] Only one filter is active at a time; if another filter is engaged, any text in the previously used filter is removed, which affects results being displayed.
 
 #### Country Information
 
@@ -144,6 +146,7 @@ _Look carefully at the data in the `Languages` column in the `countries` table -
 - [ ] When a user clicks on a country or city, event delegation is used to display any photos from that location at a reasonable size.
   - [ ] If there are no photos for that location, that is clearly indicated to the user.
 - [ ] As images are clickable, this is indicated to the user by changing the cursor when it's over a photo.
+- [ ] There is some kind of overlay on each photo so that a summary of its ratings are clearly shown: the user can tell at a glance how many 1-ratings, 2-ratings, 3-ratings, 4-ratings, and 5-ratings there are for that picture.
 
 ### Single Photo View Requirements
 
