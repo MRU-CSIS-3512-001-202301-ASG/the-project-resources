@@ -6,14 +6,15 @@ To get full marks on The Project, you'll need to complete them all.
 
 ## General Requirements
 
-- [ ] No jQuery, React, or any such 3rd-party JS libraries are used.
-- [ ] All code you don't create yourself is referenced in your code as comments. If it's code you found online, it should only be a few (like 3 to 5) lines and you should include a link to where you found it. If you use code that was created through the help of a peer, cite them. You do not have to cite code you've been given in tutorials or lectures. **Egregious examples of academic dishonesty have the potential to give you a big fat zero on this assignment. Neither of us wants that.**
-- [ ] Any database work must be done using PDO, not mysqli.
-- [ ] All database queries involving `$_GET` or `$_POST` data must use prepared statements.
+- [ ] <sup>e</sup> No jQuery, React, or any such 3rd-party JS libraries are used.
+- [ ] <sup>e</sup> All code you don't create yourself is referenced in your code as comments. If it's code you found online, it should only be a few (like 3 to 5) lines and you should include a link to where you found it. If you use code that was created through the help of a peer, cite them. You do not have to cite code you've been given in tutorials or lectures. **Egregious examples of academic dishonesty have the potential to give you a big fat zero on this assignment. Neither of us wants that.**
+- [ ] <sup>e</sup> Any database work must be done using PDO, not mysqli.
+- [ ] <sup>e</sup> All database queries involving `$_GET` or `$_POST` data must use prepared statements.
 
 ## Requirements for All Pages
 
 - [ ] All pages have zero errors when validated by the [W3C Markup Validation Service](https://validator.w3.org/s). (Warnings are OK, though not great. I'd spend _some_ effort to remove them - but their presence will NOT affect your mark!)
+  > _**Aside**: If you're using a framework that's causing the errors, then those errors are OK, because they're not your faul._
 - [ ] All pages look reasonable at Mobile L and Laptop L sizes on Google Chrome.  
     > _**Aside**: This isn't because I'm a Google fanboy, or because other sizes are not important. It's because I need to limit options, lest testing your pages becomes a nightmare for both of us._
 
@@ -21,16 +22,16 @@ To get full marks on The Project, you'll need to complete them all.
 
 ### Login Page
 
-- [ ] The landing page for the admin pages is called `admin.php`.
+- [ ] <sup>e</sup> The landing page for the admin pages is called `admin.php`.
 - [ ] The landing page shows a login form of some kind.
-- [ ] The password field of the login form obfuscates the password being entered.
+- [ ] <sup>e</sup> The password field of the login form obfuscates the password being entered.
 - [ ] The login form uses **server-side** validation.
-  - [ ] There is **no client-side validation** present on the login form.   
+  - [ ] <sup>e</sup> There is **no client-side validation** present on the login form.   
     > _**Aside**: I want to make sure you have a grip on basic server-side validation and adding client-side validation here makes it harder for you and me to test that._
   - [ ] If a user enters in a username/password combination that is not found in the `administrators` table, a useful - but not too-revealing - message displays on the form **and** the form fields still have their previously-entered values.
 - [ ] If the user authenticates correctly, the login status is saved using PHP session state, and the form redirects to the **Browse/Filter Page**.
 - [ ] Authentication uses PHP's `password_hash()` and `password_verify()` functions.
-  - [ ] `password_hash` uses the `PASSWORD_BCRYPT` algorithm with a cost of 12.  
+  - [ ] <sup>e</sup> `password_hash` uses the `PASSWORD_BCRYPT` algorithm with a cost of 12.  
 
 ### Browse/Filter Page
 
@@ -39,8 +40,7 @@ To get full marks on The Project, you'll need to complete them all.
 - [ ] When a user goes to this page without being logged in, they should be redirected back to the **Login Page**. Detection of whether the user is logged in is done through PHP sessions. 
 - [ ] There is an intuitive way to sort the entries in ascending and descending order by rating and by city.
   - [ ] The last sort used is stored in a cookie that lasts for 24 hours so that if the user comes back to the site at some time in that period, this sort automatically happens.
-- [ ] There is an intuitive way to filter the entries by country, city, and rating.
-  - [ ] This must be done using PHP, not JS.  
+- [ ] There is an intuitive way to filter the entries by country, city, and rating. This is done using PHP, not JS.
     > _**Aside**: You'll be doing client-side filtering in the second half of the course. I want to make sure you can do filtering **both** ways._
   - [ ] The filters are either "or" filters (_"I want to find all images in Calgary or have a rating of 3"_) or "and" filters (_"I want to find all images in Calgary that have a rating of 3"_). Your choice - but it should be obvious to a user which it is.
   - [ ] If the filter produces no results, that is clearly indicated to the user - they shouldn't be thinking _"huh - there's nothing being shown...does that mean there are no results, or does it mean the page is broken?..."_
@@ -68,14 +68,14 @@ _Although there is only one "page" for the public-facing site - `index.html` - i
 
 ### General Requirements
 
-- [ ] The public-facing site has one and only one html page: `index.html`; that is also the only html page in the submitted GitHub repo.
+- [ ] <sup>e</sup> The public-facing site has one and only one html page: `index.html`; that is also the only html page in the submitted GitHub repo.
 - [ ] When a user goes to `index.html`, they see the Default View.
 - [ ] All `<img>` tags displaying travel photos use `srcset` and `sizes` to create responsive images. (See this [MDN reference](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#how_do_you_create_responsive_images) for guidance.)
   - [ ] All travel photos are served by Cloudinary at reasonable sizes. (This is my way of saying that you should not be using CSS to make huge images look small.)
 - [ ] Tables are not used for layout.
-- [ ] No embedded or inline JavaScript is present; all JavaScript is contained in external files.
-- [ ] The `innerHTML` property is not used in any JS files.
-- [ ] No alerts are used.
+- [ ] <sup>e</sup> No embedded or inline JavaScript is present; all JavaScript is contained in external files.
+- [ ] <sup>e</sup> The `innerHTML` property is not used in any JS files.
+- [ ] <sup>e</sup> No alerts are used.
 - [ ] Only specified data is stored in `session storage` and/or `local storage`. (_I'm trying to stop the tendency of some students to store **everything** in the browser!_)
 
 ### Default View Requirements
@@ -107,13 +107,13 @@ _Although there is only one "page" for the public-facing site - `index.html` - i
 
 - [ ] When the user clicks on a country in the **Country List**, event delegation is used to display the selected country's information:
 
-    - [ ]  name
-    - [ ]  area
-    - [ ]  population
-    - [ ]  capital name
-    - [ ]  currency
-    - [ ]  domain
-    - [ ]  description
+    - [ ]  <sup>e</sup> name
+    - [ ]  <sup>e</sup> area
+    - [ ]  <sup>e</sup> population
+    - [ ]  <sup>e</sup> capital name
+    - [ ]  <sup>e</sup> currency
+    - [ ]  <sup>e</sup> domain
+    - [ ]  <sup>e</sup> description
     - [ ]  languages (see below)
     - [ ]  neighbouring countries (see below)
     - [ ]  country map (see below)
@@ -136,16 +136,16 @@ _Look carefully at the data in the `Languages` column in the `countries` table -
 #### City Information
 
 - [ ] When the user clicks on a city in the City List, event delegation is used to replace any country information that was displayed with the selected city's information:
-    - [ ] name
-    - [ ] population
-    - [ ] elevation
-    - [ ] timezone
+    - [ ] <sup>e</sup> name
+    - [ ] <sup>e</sup> population
+    - [ ] <sup>e</sup> elevation
+    - [ ] <sup>e</sup> timezone
 
 #### Travel Photos
 
 - [ ] When a user clicks on a country or city, event delegation is used to display any photos from that location at a reasonable size.
   - [ ] If there are no photos for that location, that is clearly indicated to the user.
-- [ ] As images are clickable, this is indicated to the user by changing the cursor when it's over a photo.
+- [ ] <sup>e</sup> As images are clickable, this is indicated to the user by changing the cursor when it's over a photo.
 - [ ] There is some kind of overlay on each photo so that a summary of its ratings are clearly shown: the user can tell at a glance how many 1-ratings, 2-ratings, 3-ratings, 4-ratings, and 5-ratings there are for that picture.
 
 ### Single Photo View Requirements
