@@ -106,7 +106,6 @@ _Although there is only one "page" for the public-facing site - `index.html` - i
 #### Country Information
 
 - [ ] When the user clicks on a country in the **Country List**, event delegation is used to display the selected country's information:
-
     - [ ]  <sup>e</sup> name
     - [ ]  <sup>e</sup> area
     - [ ]  <sup>e</sup> population
@@ -116,7 +115,6 @@ _Although there is only one "page" for the public-facing site - `index.html` - i
     - [ ]  <sup>e</sup> description
     - [ ]  languages (see below)
     - [ ]  neighbouring countries (see below)
-    - [ ]  country map (see below)
 
  
 ##### Languages Requirements
@@ -152,9 +150,7 @@ _Look carefully at the data in the `Languages` column in the `countries` table -
 
 - [ ] When a photo is selected in the **Default View**, the page will display the Single Photo View.
 - [ ] The photo shown is appropriately large for this view at both Laptop and Mobile sizes.
-- [ ] In addition to the photo itself, the corresponding `title`, `user name`, `city`, `country`, and `description` are also displayed.
+- [ ] In addition to the photo itself, the corresponding `title`, `latitude`, `longitude`, `user name`, `city`, `country`, and `description` are also displayed.
 - [ ] A Google map showing a marker at the photo's latitude and longitude is present.
-- [ ] The Exif info for the photo - `model`, `exposure`, `aperture`, `focal length`, and `iso` - are present.
-- [ ] The colour information (5 dominant colours - look in the database!) for the photo is displayed in a way such that both the hex code and an appropriately coloured shape (like a box, or circle) are present for each colour. 
 - [ ] The photo's ratings, along with the first name and last name of the user associated with each rating, are present, and sorted in descending order.
 - [ ] There is an obvious way for the user to close this view and return to the **Default View**.
