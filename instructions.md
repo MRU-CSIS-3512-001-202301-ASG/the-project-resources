@@ -2,7 +2,7 @@
 
 **Weight**: 30%
 
-**Due:** Mar. 31, 2023 @ 5 PM 
+**Due:** I'll be marking sometime (after 9 AM, but before 11 AM) in the morning  of April 2nd. 
 
 **Marking Scheme**: [link to Google Docs](https://docs.google.com/document/d/1j47AaxUq7OaugAm6f7y-Bnw30VFKiWvMMe5dFLMO-qo/edit?usp=sharing)
 
