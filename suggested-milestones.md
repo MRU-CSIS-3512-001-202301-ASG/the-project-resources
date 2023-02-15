@@ -47,7 +47,8 @@ _Remember there are are 2 primary "views": Default View and Single Photo View th
 ## Week of `2023-03-06`
 _Since we won't be talking about how to get JSON from an API endpoint for a while, you can still simulate this by making your own hard-coded JSON and using that instead._
 - [ ] Start generating the content for your views dynamically:
-  - [ ]  Put the JSON representing the elements of your views into files, generate JS objects from that JSON, and use those objects to create DOM elements that you insert into the views. 
+  - [ ]  Put the JSON representing the elements of your views into files, generate JS objects from that JSON, and use those objects to create DOM elements that you insert into the views.
+    - [ ]  You probably are wondering where you're getting this JSON from! You know how to make a JSON endpoint in PHP, so create the endpoints you need, go to the endpoints in a browser, and copy-paste the results into some files.
   - [ ]  By the end of this process, you should now be dealing with a single html page (`index.html`) and not multiple ones.
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd).
 
