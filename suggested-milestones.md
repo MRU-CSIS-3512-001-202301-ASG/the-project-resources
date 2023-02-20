@@ -27,12 +27,12 @@
 - [ ] Redirection occurring (both on login and attempt to view Browse/Filter w/o login).
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd).
 
-## 📌  Week of `2023-02-13`
+## Week of `2023-02-13`
 - [ ] Admin pages fully functional (as per the functionality req's doc), or very close to it.
 - [ ] [Dead Drop API](api-details.md#dead-drop-api) functional.
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd).
 
-## Week of `2023-02-20 (READING WEEK)`
+## 📌 Week of `2023-02-20 (READING WEEK)`
 - [ ] Take a break? catch up if you're behind?
 
 ## Week of `2023-02-27`
