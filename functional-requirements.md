@@ -10,6 +10,7 @@ To get full marks on The Project, you'll need to complete them all.
 - [ ] <sup>e</sup> All code you don't create yourself is referenced in your code as comments. If it's code you found online, it should only be a few (like 3 to 5) lines and you should include a link to where you found it. If you use code that was created through the help of a peer, cite them. You do not have to cite code you've been given in tutorials or lectures. **Egregious examples of academic dishonesty have the potential to give you a big fat zero on this assignment. Neither of us wants that.**
 - [ ] <sup>e</sup> Any database work must be done using PDO, not mysqli.
 - [ ] <sup>e</sup> All database queries involving `$_GET` or `$_POST` data must use prepared statements.
+    - **Exception**: You may use string interpolation in any ORDER BY clause, as mentioned in [this announcement](https://github.com/MRU-CSIS-3512-001-202301-ASG/the-project-resources/discussions/18) - but **only** for the ORDER BY clause portion of your query!
 
 ## Requirements for All Pages
 
