@@ -32,10 +32,10 @@
 - [ ] [Dead Drop API](api-details.md#dead-drop-api) functional.
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd).
 
-## 📌 Week of `2023-02-20 (READING WEEK)`
+## Week of `2023-02-20 (READING WEEK)`
 - [ ] Take a break? catch up if you're behind?
 
-## Week of `2023-02-27`
+## 📌Week of `2023-02-27`
 _Remember there are are 2 primary "views": Default View and Single Photo View that technically live on one page (`index.html`)...but you don't have to have it that way._
  
 - [ ] Create an html page for each view that uses hard-coded data; nothing needs to be interactive at this point, so clicking on things and typing in values doesn't have to actually _do_ anything yet - you're simply trying to get the layout and "look" of the different views solidified.
