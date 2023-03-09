@@ -31,8 +31,8 @@ To get full marks on The Project, you'll need to complete them all.
     > _**Aside**: I want to make sure you have a grip on basic server-side validation and adding client-side validation here makes it harder for you and me to test that._
   - [ ] If a user enters in a username/password combination that is not found in the `administrators` table, a useful - but not too-revealing - message displays on the form **and** the form fields still have their previously-entered values.
 - [ ] If the user authenticates correctly, the login status is saved using PHP session state, and the form redirects to the **Browse/Filter Page**.
-- [ ] Authentication uses PHP's `password_hash()` and `password_verify()` functions.
-  - [ ] <sup>e</sup> `password_hash` uses the `PASSWORD_BCRYPT` algorithm with a cost of 12.  
+- [ ] Authentication uses PHP's `password_verify()` function.
+  - [ ] <sup>e</sup> The digest stored in the `administrators` table was created using PHP's `password_hash` function, using the `PASSWORD_BCRYPT` algorithm with a cost of 12.  
 
 ### Browse/Filter Page
 
