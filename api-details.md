@@ -42,7 +42,7 @@ Lists the number of currently active drops in a given city.
 #### Query Parameters
 `city_code` _integer_  **Required**
 
-The id of the city to query.
+The id of the city to query. (This is the `CityCode` column in the `cities` table.)
 
 #### Example Response
 
