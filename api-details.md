@@ -34,13 +34,13 @@ None
 }
 ```
 
-### `/api/ddrop.php?city={city_id}`
+### `/api/ddrop.php?city={city_code}`
 
 #### Description
 Lists the number of currently active drops in a given city.
 
 #### Query Parameters
-`city_id` _integer_  **Required**
+`city_code` _integer_  **Required**
 
 The id of the city to query.
 
