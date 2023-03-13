@@ -44,7 +44,7 @@ _Remember there are are 2 primary "views": Default View and Single Photo View th
     > _For example, your `<img>` tags are going to need unique `src`, `srcset`, and `alt` attributes. Capturing these in simple JS objects will be a lifesaver._
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd).
 
-## 📌 Week of `2023-03-06`
+## Week of `2023-03-06`
 _Since we won't be talking about how to get JSON from an API endpoint for a while, you can still simulate this by making your own hard-coded JSON and using that instead._
 - [ ] Start generating the content for your views dynamically:
   - [ ]  Put the JSON representing the elements of your views into files, generate JS objects from that JSON, and use those objects to create DOM elements that you insert into the views.
@@ -52,7 +52,7 @@ _Since we won't be talking about how to get JSON from an API endpoint for a whil
   - [ ]  By the end of this process, you should now be dealing with a single html page (`index.html`) and not multiple ones.
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd).
 
-## Week of `2023-03-13`
+## 📌 Week of `2023-03-13`
 _You should be able to start adding interactivity to your page this week._
 - [ ] Identify every element on your page that needs to react to users (either via clicking or typing) and add necessary event handlers.
     > _Remember to use event delegation whenever required!_
