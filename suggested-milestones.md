@@ -52,13 +52,13 @@ _Since we won't be talking about how to get JSON from an API endpoint for a whil
   - [ ]  By the end of this process, you should now be dealing with a single html page (`index.html`) and not multiple ones.
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd).
 
-## 📌 Week of `2023-03-13`
+## Week of `2023-03-13`
 _You should be able to start adding interactivity to your page this week._
 - [ ] Identify every element on your page that needs to react to users (either via clicking or typing) and add necessary event handlers.
     > _Remember to use event delegation whenever required!_
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd).
 
-## Week of `2023-03-20`
+## 📌 Week of `2023-03-20`
 _By the end of this week, your entire site is basically working, but will have some rough edges that can be fixed before the deadline._
 - [ ] By the end of this week, you should be replacing your hard-coded JSON data with JSON pulled in from your API endpoints.
 - [ ] Cache required data into local storage. 
