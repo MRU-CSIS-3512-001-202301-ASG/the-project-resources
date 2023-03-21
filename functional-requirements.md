@@ -84,7 +84,7 @@ _Although there is only one "page" for the public-facing site - `index.html` - i
 #### Country Listing
 
 - [ ] An alphabetically-sorted list of country names is visible.
-  - [ ]  If no filter is active, then all the countries in the database are shown.
+  - [ ] If no filter is active, then all the countries in the database are shown.
   - [ ] If a filter **is** active, then only countries that match the filter are shown.
 - [ ] Country names are initially obtained via a `fetch` from an API endpoint of your own devising. (_Hint: you will find it useful if you don't just grab the country **names** but also the **ISO** codes as well!_)
   - [ ] To improve the performance of the page, these names are saved in **local storage** after the initial `fetch`. 
@@ -100,6 +100,7 @@ _Although there is only one "page" for the public-facing site - `index.html` - i
 
 - [ ] There is an obvious way to filter countries by name; this filtering is case-insensitive and matches the start of the name. (_For example, `ca` should show `Canada`, but not `Jamaica`._)
 - [ ] There is an obvious way to filter cities by name; this filtering is case-insensitive and matches the start of the name. (_For example, `shi` should show `Shiliguri`, but not `Washington`._)
+  - _**Clarification**: The city filter capability should only be available if there are cities currently being shown! In addition, this filter is NOT supposed to go and search for cities via an API call - it's just supposed to filter the currently shown list of city names._
 - [ ] There is an obvious way to allow these two filters to only include results that have photos.
 - [ ] Filters have no Submit buttons - they filter immediately on user entry.
 - [ ] Only one filter is active at a time; if another filter is engaged, any text in the previously used filter is removed, which affects results being displayed.
