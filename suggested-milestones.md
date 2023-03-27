@@ -58,12 +58,12 @@ _You should be able to start adding interactivity to your page this week._
     > _Remember to use event delegation whenever required!_
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd).
 
-## 📌 Week of `2023-03-20`
+## Week of `2023-03-20`
 _By the end of this week, your entire site is basically working, but will have some rough edges that can be fixed before the deadline._
 - [ ] By the end of this week, you should be replacing your hard-coded JSON data with JSON pulled in from your API endpoints.
 - [ ] Cache required data into local storage. 
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd).
 
-## Week of `2023-03-27`
+## 📌 Week of `2023-03-27`
 - [ ] Fine-tuning, bug fixes, touchups, and submission.
 - [ ] Write at least one entry in the [project journal](instructions.md#project-journalmd). 
