@@ -99,9 +99,9 @@ _Although there is only one "page" for the public-facing site - `index.html` - i
 #### Filters
 
 - [ ] There is an obvious way to filter countries by name; this filtering is case-insensitive and matches the start of the name. (_For example, `ca` should show `Canada`, but not `Jamaica`._)
-- [ ] There is an obvious way to filter cities by name; this filtering is case-insensitive and matches the start of the name. (_For example, `shi` should show `Shiliguri`, but not `Washington`._)
+- [x] There is an obvious way to filter cities by name; this filtering is case-insensitive and matches the start of the name. (_For example, `shi` should show `Shiliguri`, but not `Washington`._)
   - _**Clarification**: The city filter capability should only be available if there are cities currently being shown! In addition, this filter is NOT supposed to go and search for cities via an API call - it's just supposed to filter the currently shown list of city names._
-- [ ] There is an obvious way to allow these two filters to only include results that have photos.
+- [ ] There is an obvious way to allow ~~these two filters~~ this filter to only include results that have photos.
 - [ ] Filters have no Submit buttons - they filter immediately on user entry.
 - [ ] Only one filter is active at a time; if another filter is engaged, any text in the previously used filter is removed, which affects results being displayed.
 
@@ -146,7 +146,7 @@ _Look carefully at the data in the `Languages` column in the `countries` table -
 - [ ] When a user clicks on a country or city, event delegation is used to display any photos from that location at a reasonable size.
   - [ ] If there are no photos for that location, that is clearly indicated to the user.
 - [ ] <sup>e</sup> As images are clickable, this is indicated to the user by changing the cursor when it's over a photo.
-- [ ] There is some kind of overlay on each photo so that a summary of its ratings are clearly shown: the user can tell at a glance how many 1-ratings, 2-ratings, 3-ratings, 4-ratings, and 5-ratings there are for that picture.
+- [ ] There is some kind of overlay on each photo so that a summary of its ratings are clearly shown: the user can tell at a glance how many ~~1-ratings, 2-ratings,~~ 3-ratings, ~~4-ratings, and 5-ratings~~ there are for that picture.
 
 ### Single Photo View Requirements
 
