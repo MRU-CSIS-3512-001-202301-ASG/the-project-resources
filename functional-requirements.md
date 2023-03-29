@@ -71,8 +71,8 @@ _Although there is only one "page" for the public-facing site - `index.html` - i
 
 - [ ] <sup>e</sup> The public-facing site has one and only one html page: `index.html`; that is also the only html page in the submitted GitHub repo.
 - [ ] When a user goes to `index.html`, they see the Default View.
-- [x] All `<img>` tags displaying travel photos use `srcset` and `sizes` to create responsive images. (See this [MDN reference](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#how_do_you_create_responsive_images) for guidance.)
-- [ ] All travel photos are served by Cloudinary at reasonable sizes. (This is my way of saying that you should not be using CSS to make huge images look small.)
+- [ ] All `<img>` tags displaying travel photos use `srcset` and `sizes` to create responsive images. (See this [MDN reference](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#how_do_you_create_responsive_images) for guidance.)
+  - [ ] All travel photos are served by Cloudinary at reasonable sizes when the page is viewed at Laptop L and Mobile L sizes. (This is my way of saying that you should not be using CSS to make huge images look small - you should be serving properly-sized images via Cloudinary at different viewport sizes.)
 - [ ] Tables are not used for layout.
 - [ ] <sup>e</sup> No embedded or inline JavaScript is present; all JavaScript is contained in external files.
 - [ ] <sup>e</sup> The `innerHTML` property is not used in any JS files.
