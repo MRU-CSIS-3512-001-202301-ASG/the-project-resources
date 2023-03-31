@@ -152,7 +152,7 @@ _Look carefully at the data in the `Languages` column in the `countries` table -
 - [ ] When a photo is selected in the **Default View**, the page will display the Single Photo View.
 - [ ] The photo shown is appropriately large for this view at both Laptop and Mobile sizes.
 - [ ] In addition to the photo itself, the corresponding `title`, `latitude`, `longitude`, `user name`, `city`, `country`, and `description` are also displayed.
-- [ ] A Google map showing a marker at the photo's latitude and longitude is present.
+- [x] A Google map showing a marker at the photo's latitude and longitude is present.
   - _**Clarification**: Follow the process outlined in [this Google Maps tutorial](https://developers.google.com/maps/documentation/javascript/adding-a-google-map#maps_add_map-javascript). You'll need to play with the zoom level a bit to get a reasonable result. Details on getting started with maps and your Google Cloud Platform credits are [here](https://docs.google.com/document/d/1ZA8vvXA89B2T7i7bXxAHSQ1o_WcMn9wiJCGRrDPwMwU/edit?usp=sharing)._
 - [ ] The photo's ratings, along with the first name and last name of the user associated with each rating, are present, and sorted in descending order.
 - [ ] There is an obvious way for the user to close this view and return to the **Default View**.
